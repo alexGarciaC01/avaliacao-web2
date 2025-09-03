@@ -1,0 +1,35 @@
+.produto {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+    margin: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .produto:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .produto img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 12px;
+  }
+  
+  .produto h4 {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .produto p {
+    margin: 4px 0;
+    color: #666;
+    font-size: 14px;
+  }
+  

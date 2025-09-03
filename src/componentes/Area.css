@@ -1,0 +1,24 @@
+.area {
+    padding: 30px;
+    border-radius: 12px;
+    margin: 30px auto;
+    max-width: 1000px;
+  }
+  
+  .area h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid #57c278;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .area .produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  

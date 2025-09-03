@@ -1,0 +1,82 @@
+.formulario {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+  }
+  
+  .formulario h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Campos de texto e dropdown */
+  .formulario input,
+  .formulario select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .formulario input:focus,
+  .formulario select:focus {
+    border-color: #57c278;
+    outline: none;
+  }
+  
+  /* Campo dropdown */
+  .formulario .campo-dropdown label {
+    font-weight: bold;
+    color: #444;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Campo de condição */
+  .formulario .campo-condicao {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* espaço entre os radios */
+    margin-bottom: 20px;
+  }
+  
+  .formulario .campo-condicao span {
+    font-weight: bold;
+    color: #444;
+    margin-right: 10px;
+  }
+  
+  .formulario .campo-condicao label {
+    font-size: 14px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+  
+  /* Botão */
+  .formulario button {
+    background-color: #57c278;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .formulario button:hover {
+    background-color: #45a86f;
+  }
+  
